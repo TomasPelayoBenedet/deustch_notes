@@ -2,6 +2,12 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage{fancyhdr} % Required for custom headers and footers
 \usepackage{lastpage} % Required for total page count
+\usepackage[top=4cm]{geometry}
+\usepackage{float}
+
+% Required to write special characters
+\usepackage[T1]{fontenc}
+\usepackage{tipa}
 
 \title{\textit{Deustch} notes}
 \author{Tomás Pelayo Benedet}
@@ -20,6 +26,7 @@
 % Add footer line and set its width
 \renewcommand{\footrulewidth}{0.4pt}
 
+\setlength{\parskip}{1em}
 
 % Define a plain style for the title page
 \fancypagestyle{plain}{%

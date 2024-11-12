@@ -110,7 +110,7 @@ def create_latex_document(csv_file_path, output_tex_file, words_per_table=70):
     \renewcommand{\arraystretch}{1.5}
     \begin{tabular}{|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|}
         \hline
-        \rowcolor{gray!20} \textbf{Deustch} & \textbf{Español} \\
+        \rowcolor{gray!20} \textbf{Deustch} & \textbf{English} \\
         \hline
 '''
         # Add left table data
@@ -129,7 +129,7 @@ def create_latex_document(csv_file_path, output_tex_file, words_per_table=70):
     \renewcommand{\arraystretch}{1.5}
     \begin{tabular}{|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|}
         \hline
-        \rowcolor{gray!20} \textbf{Deustch} & \textbf{Español} \\
+        \rowcolor{gray!20} \textbf{Deustch} & \textbf{English} \\
         \hline
 '''
             # Add right table data
