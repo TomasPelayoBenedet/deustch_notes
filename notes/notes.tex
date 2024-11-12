@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{fancyhdr} % Required for custom headers and footers
+\usepackage{lastpage} % Required for total page count
+
+\title{\textit{Deustch} notes}
+\author{Tomás Pelayo Benedet}
+\date{2024}
+
+% Set up the fancy style
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+
+% Define the footer
+\fancyfoot[L]{Page \thepage\ of \pageref{LastPage}}
+\fancyfoot[R]{Author: Tomás Pelayo}
+
+% Remove header line
+\renewcommand{\headrulewidth}{0pt}
+% Add footer line and set its width
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+% Define a plain style for the title page
+\fancypagestyle{plain}{%
+  \fancyhf{} % Clear all header and footer fields
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\begin{document}
+
+\maketitle
+
+\input{tex/introduction}
+
+\newpage
+
+\input{tex/preliminary}
+
+\newpage
+
+\input{tex/pronunciation}
+
+\end{document}
