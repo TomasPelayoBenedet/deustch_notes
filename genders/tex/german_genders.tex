@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{3pt}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Page \thepage\ of \pageref{LastPage}}
+\fancyhead[R]{Author: Tomás Pelayo}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+\begin{table}[h!]
+    \centering
+    \label{tab:tabla1}
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{5cm}|>{\raggedright\arraybackslash}p{5cm}|>{\raggedright\arraybackslash}p{5cm}|}
+        \hline
+        \rowcolor{gray!20} \textbf{Maskulina (der)} & \textbf{Neutra (das)} & \textbf{Femenina (die)} \\
+        \hline
+        Herr(en) & Kenzert(e) & Frau(en) \\\hline
+         &  & Person(en) \\\hline
+    \end{tabular}
+\end{table}
+
+\end{document}

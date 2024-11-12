@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{3pt}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Page \thepage\ of \pageref{LastPage}}
+\fancyhead[R]{Author: Tomás Pelayo}
+\renewcommand{\headrulewidth}{1pt}
+
+\begin{document}
+
+\begin{minipage}{0.48\textwidth}
+    \centering
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|}
+        \hline
+        \rowcolor{gray!20} \textbf{Deustch} & \textbf{Español} \\
+        \hline
+        Frau(en) & Señora \\\hline
+        Herr(en) & Señor \\\hline
+        Kenzert(e) & Concierto \\\hline
+        Person(en) & Persona \\\hline
+    \end{tabular}
+\end{minipage}%
+
+\end{document}
