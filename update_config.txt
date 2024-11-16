@@ -1,0 +1,3 @@
+expressions/:python3 expressions.py
+genders/:python3 genders.py
+words/:python3 words.py
