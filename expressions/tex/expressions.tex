@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{3pt}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Page \thepage\ of \pageref{LastPage}}
+\fancyhead[R]{Author: Tomás Pelayo}
+\renewcommand{\headrulewidth}{1pt}
+
+\begin{document}
+
+\begin{minipage}{0.48\textwidth}
+    \centering
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|}
+        \hline
+        \rowcolor{gray!20} \textbf{Deustch} & \textbf{English} \\
+        \hline
+        Auch gut & Also good/fine \\\hline
+        Bis bald! & See you soon! \\\hline
+        Bis später! & See you later! \\\hline
+        Danke &  Thanks \\\hline
+        Das ist &  This is \\\hline
+        Das sind &  These are \\\hline
+        Entschuldingung! & Sorry! \\\hline
+        Es geht & I'm okay/so-so \\\hline
+        Ganz gut & Very well \\\hline
+        Gute Nacht! &  Good night! \\\hline
+        Guten Abend! &  Good evening! \\\hline
+        Guten Morgen! &  Good morning! \\\hline
+        Guten Tag! &  Good day! \\\hline
+        Ich bin None & I am None \\\hline
+        Ich hei\ss{}e None & My name is None \\\hline
+    \end{tabular}
+\end{minipage}%
+\hfill
+\begin{minipage}{0.48\textwidth}
+    \centering
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|>{\raggedright\arraybackslash}p{3.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|}
+        \hline
+        \rowcolor{gray!20} \textbf{Deustch} & \textbf{English} \\
+        \hline
+        Kannst du bitte vorlesen? &  Can you please read aloud? \\\hline
+        Ordnen Sie zu & Match \\\hline
+        Tschüs! & Bye! \\\hline
+        Was gehört zusammen? & What goes together? \\\hline
+        Wie bist du? & What is your name? \\\hline
+        Wie geht es dir? &  How are you? \\\hline
+        Wie geht's? &  How are you? \\\hline
+        Wie hei\ss{}t du? & What is your name? \\\hline
+        Wiederhören & Goodbye (in phone) \\\hline
+        Wiedersehen & Goodbye (in person) \\\hline
+    \end{tabular}
+\end{minipage}
+
+\end{document}
