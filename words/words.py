@@ -181,7 +181,7 @@ def main():
     tex_file = os.path.join(tex_dir, "words.tex")
     
     # Create LaTeX document
-    create_latex_document(csv_file, tex_file, words_per_table=70)
+    create_latex_document(csv_file, tex_file, words_per_table=93)
     
     # Compile PDF
     compile_latex(tex_file)
