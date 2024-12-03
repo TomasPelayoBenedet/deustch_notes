@@ -4,6 +4,13 @@
 \usepackage{lastpage} % Required for total page count
 \usepackage[top=4cm]{geometry}
 \usepackage{float}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{float}
+\usepackage{tcolorbox}
+\usepackage{changepage}
 
 % Required to write special characters
 \usepackage[T1]{fontenc}
@@ -35,6 +42,37 @@
   \renewcommand{\footrulewidth}{0pt}
 }
 
+\newcommand{\TODO}[1]{\textcolor{red}{#1}}
+
+% Box with transtation
+\newcommand{\translation}[2]{%
+  \vspace*{\fill}
+  \begin{center}
+  \begin{tcolorbox}[colback=gray!16, colframe=black, width=0.8\textwidth, sharp corners, boxrule=0.5pt]
+      \centering \textbf{#1} --- \textit{#2}
+  \end{tcolorbox}
+  \end{center}
+  \vspace*{\fill}
+}
+
+% Verb conjugations
+\newcommand{\conjugation}[7]{%
+  \begin{center}
+    \renewcommand{\arraystretch}{1.5} % Espaciado entre filas
+    \begin{tabular}{|>{\bfseries}l|l|}
+      \hline
+      \multicolumn{2}{|c|}{\Large \textbf{#1}} \\ % Título con el verbo
+      \hline
+      ich & #2 \\ \hline
+      du & #3 \\ \hline
+      er/sie/es & #4 \\ \hline
+      wir & #5 \\ \hline
+      ihr & #6 \\ \hline
+      sie/Sie & #7 \\ \hline
+    \end{tabular}
+  \end{center}
+}
+
 \begin{document}
 
 \maketitle
@@ -58,5 +96,9 @@
 \newpage
 
 \input{tex/verbs}
+
+\newpage
+
+\input{tex/thematic}
 
 \end{document}
