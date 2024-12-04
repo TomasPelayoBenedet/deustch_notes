@@ -1,7 +1,7 @@
 Herr(en),Mister
 Frau(en),Missis
 Person(en),Person
-Kenzert(e),Concert
+Konzert(e),Concert
 sehen,to see
 genau,exactly
 Buch("er),Book
@@ -117,7 +117,6 @@ Würstchen(-),Sausage (small)
 Butterbrot(e),Sandwich
 Auto(s),Car
 Land("er),Country
-Wort("er),Word
 Jahr(e),Year
 Beispiel(e),Example
 Arbeit(en),Work
@@ -167,3 +166,19 @@ Fahrrad("er),Bike
 Rad("er),Wheel/Bike
 U-Bahn(en),Metro
 Test(s),Exam/Test
+kommen,to come/to go
+Theater(-),Theater
+Festival(s),Festival
+Orchestr(-),Orchestra
+Chor("e),Choir
+Film(e),Film
+Publickum(no sing),Audience
+Wort(e),Word (connected words)
+Wort("er),Word (individual words)
+Jahreszeit(en),Season
+Monat(e),Month
+Urlaub(e),Vacation/Holiday
+Ferier(no sing),Holidays
+teuer,expensive
+Tor(e),Gate/Goal
+Tür(en),Door
