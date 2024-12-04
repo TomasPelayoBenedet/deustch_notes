@@ -11,6 +11,9 @@
 \usepackage{float}
 \usepackage{tcolorbox}
 \usepackage{changepage}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing, positioning}
 
 % Required to write special characters
 \usepackage[T1]{fontenc}
@@ -71,6 +74,15 @@
   \end{center}
 }
 
+\newcommand{\syntactic}[3]{%
+    \tikz[baseline=(word.base)]{%
+        \node[anchor=base] (word) {#1}; % Palabra o grupo
+        \draw[thick] (word.south west) -- (word.south east); % Subrayado
+        \node[below=2pt of word] {#2}; % Función gramatical
+    }
+    \hspace{#3} % Espaciado opcional
+}
+
 \begin{document}
 
 \maketitle
@@ -98,5 +110,9 @@
 \newpage
 
 \input{tex/thematic}
+
+\newpage
+
+\input{tex/sentences}
 
 \end{document}
