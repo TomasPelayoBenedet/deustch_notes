@@ -172,13 +172,45 @@ Festival(s),Festival
 Orchestr(-),Orchestra
 Chor("e),Choir
 Film(e),Film
-Publickum(no sing),Audience
+Publickum(no sng),Audience
 Wort(e),Word (connected words)
 Wort("er),Word (individual words)
 Jahreszeit(en),Season
 Monat(e),Month
 Urlaub(e),Vacation/Holiday
-Ferier(no sing),Holidays
-teuer,expensive
+Ferier(no sng),Holidays
+tever,expensive
 Tor(e),Gate/Goal
 Tür(en),Door
+Wurst("e),Sausage
+Obst(no sng),Fruit
+Fleisch(no sng),Meat
+Kerks(e),Cookie/Biscuit
+Butterbrot(e),bread with butter
+einkaufen,to shop
+kaufen,to buy
+Angebot(e),Offer/Deal
+öko-,eco- (abbrev ecological)
+Brot(e),Bread
+Nachricht(en),Message/News
+Würstchen(-),Small Sausage
+brouchen,to need
+Getränk(e),Drink
+nehmen, to take
+möchten,would like
+mögen,to like
+Lebensmittel(no sng),Groceries
+Frühstück(e),Breakfast
+Mittagessen(-),Lunch
+Abendessen(-),Dinner
+Kuchen(-),Cake
+Torte(e),Layer cake
+Löffel(-),Spoon
+Messer(-),Knife
+Gabel(n),Fork
+Kaffee(s),Coffee
+Metzgerei(en),Butcher shop
+Bäckerei(en),Bakery
+Markt("e),Market
+Supermarkt("e),Supermarket
+Speisekarte(n),Menu
