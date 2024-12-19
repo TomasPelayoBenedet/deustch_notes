@@ -40,7 +40,9 @@ if [ ! -w "$output_dir" ]; then
 fi
 
 # Convert input pdf into book
-pdfbook2 --paper=a4paper --short-edge "$input_file"
+margin=40
+((doublemargin = margin * 2))
+pdfbook2 --paper=a4paper --short-edge -o $margin -i $doublemargin -t $margin -b $margin "$input_file"
 
 # Set the new name for middle file
 middle_file="$(dirname $input_file)/$(basename $input_file .pdf)-book.pdf"
